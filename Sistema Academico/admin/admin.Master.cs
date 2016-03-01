@@ -107,7 +107,7 @@ namespace admin
 
             
             }
-            * */
+            */
             //se muestra el bienvenido
             ingresado.Visible = true;
             logear.Visible = false;

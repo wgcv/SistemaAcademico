@@ -52,7 +52,7 @@ namespace Sistema_Academico
         {
             if (FileUpload1.HasFile)
             {
-                String path = Path.Combine(Server.MapPath("~/Images"), FileUpload1.FileName);
+                String path = Path.Combine(Server.MapPath("~/Documentos"), FileUpload1.FileName);
                 FileUpload1.SaveAs(path);
                 String fullPath = "/Documentos/" + FileUpload1.FileName;
                 String sql = "Insert into documentos(categoria, titulo, directorio, estado) VALUES('" + DropDownList1.SelectedValue + "','" + TextBox1.Text + "','" + fullPath + "','P')";

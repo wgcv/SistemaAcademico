@@ -67,7 +67,7 @@
 		<a href="/noticias.aspx">Noticias</a>
 		<a href="/eventos.aspx">Eventos</a>
 		<a href="#">Revista Digital</a>
-		<a href="#">Encuestas</a>
+		<a href="/encuesta.aspx">Encuestas</a>
 		<a href="/foro.aspx">Foros</a>
 		<a href="/concursos.aspx">Concursos</a>
 		<a href="/OpinionCorta.aspx">Opinion</a>

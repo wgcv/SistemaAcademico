@@ -45,6 +45,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -132,10 +133,22 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="admin\concursos.aspx" />
+    <Content Include="admin\contactosemail.aspx" />
     <Content Include="admin\default.aspx" />
+    <Content Include="admin\documentos.aspx" />
+    <Content Include="admin\email.aspx" />
+    <Content Include="admin\encuestas\crearEncuesta.aspx" />
+    <Content Include="admin\encuestas\default.aspx" />
+    <Content Include="admin\encuestas\fin.aspx" />
+    <Content Include="admin\encuestas\pregunta.aspx" />
+    <Content Include="admin\encuestas\respuestas.aspx" />
     <Content Include="admin\eventos.aspx" />
+    <Content Include="admin\foros.aspx" />
+    <Content Include="admin\gruposemail.aspx" />
     <Content Include="admin\noticias.aspx" />
     <Content Include="admin\opiniones.aspx" />
+    <Content Include="admin\preguntaforo.aspx" />
+    <Content Include="admin\respuestaforo.aspx" />
     <Content Include="admin\RespuestaOpinones.aspx" />
     <Content Include="admin\PreguntaOpinion.aspx" />
     <Content Include="calificacion\c1.png" />
@@ -202,7 +215,9 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="documentos.aspx" />
+    <Content Include="encuesta.aspx" />
     <Content Include="eventos.aspx" />
+    <Content Include="finencuesta.aspx" />
     <Content Include="foro.aspx" />
     <Content Include="forodetalle.aspx" />
     <Content Include="Images\accent.png" />
@@ -297,6 +312,13 @@
     <Compile Include="admin\concursos.aspx.designer.cs">
       <DependentUpon>concursos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\contactosemail.aspx.cs">
+      <DependentUpon>contactosemail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\contactosemail.aspx.designer.cs">
+      <DependentUpon>contactosemail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -304,12 +326,76 @@
     <Compile Include="admin\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\documentos.aspx.cs">
+      <DependentUpon>documentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\documentos.aspx.designer.cs">
+      <DependentUpon>documentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\email.aspx.cs">
+      <DependentUpon>email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\email.aspx.designer.cs">
+      <DependentUpon>email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\encuestas\ChartControl.cs" />
+    <Compile Include="admin\encuestas\crearEncuesta.aspx.cs">
+      <DependentUpon>crearEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\encuestas\crearEncuesta.aspx.designer.cs">
+      <DependentUpon>crearEncuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\encuestas\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\encuestas\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\encuestas\fin.aspx.cs">
+      <DependentUpon>fin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\encuestas\fin.aspx.designer.cs">
+      <DependentUpon>fin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\encuestas\pregunta.aspx.cs">
+      <DependentUpon>pregunta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\encuestas\pregunta.aspx.designer.cs">
+      <DependentUpon>pregunta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\encuestas\respuestas.aspx.cs">
+      <DependentUpon>respuestas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\encuestas\respuestas.aspx.designer.cs">
+      <DependentUpon>respuestas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin\eventos.aspx.cs">
       <DependentUpon>eventos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="admin\eventos.aspx.designer.cs">
       <DependentUpon>eventos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\foros.aspx.cs">
+      <DependentUpon>foros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\foros.aspx.designer.cs">
+      <DependentUpon>foros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\gruposemail.aspx.cs">
+      <DependentUpon>gruposemail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\gruposemail.aspx.designer.cs">
+      <DependentUpon>gruposemail.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\noticias.aspx.cs">
       <DependentUpon>noticias.aspx</DependentUpon>
@@ -324,6 +410,20 @@
     </Compile>
     <Compile Include="admin\opiniones.aspx.designer.cs">
       <DependentUpon>opiniones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\preguntaforo.aspx.cs">
+      <DependentUpon>preguntaforo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\preguntaforo.aspx.designer.cs">
+      <DependentUpon>preguntaforo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\respuestaforo.aspx.cs">
+      <DependentUpon>respuestaforo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\respuestaforo.aspx.designer.cs">
+      <DependentUpon>respuestaforo.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\RespuestaOpinones.aspx.cs">
       <DependentUpon>RespuestaOpinones.aspx</DependentUpon>
@@ -405,12 +505,26 @@
     <Compile Include="documentos.aspx.designer.cs">
       <DependentUpon>documentos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="encuesta.aspx.cs">
+      <DependentUpon>encuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="encuesta.aspx.designer.cs">
+      <DependentUpon>encuesta.aspx</DependentUpon>
+    </Compile>
     <Compile Include="eventos.aspx.cs">
       <DependentUpon>eventos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="eventos.aspx.designer.cs">
       <DependentUpon>eventos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="finencuesta.aspx.cs">
+      <DependentUpon>finencuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="finencuesta.aspx.designer.cs">
+      <DependentUpon>finencuesta.aspx</DependentUpon>
     </Compile>
     <Compile Include="foro.aspx.cs">
       <DependentUpon>foro.aspx</DependentUpon>

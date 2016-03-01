@@ -13,8 +13,8 @@
         <asp:Panel ID="pnlSubir" runat="server" Visible="False">
            <h1 style="color:#808080"> Sube tu archivo</h1>Categoria:
             <asp:DropDownList ID="DropDownList1" runat="server">
-                <asp:ListItem>Artículo</asp:ListItem>
-                <asp:ListItem>Comunicación</asp:ListItem>
+                <asp:ListItem>Articulo</asp:ListItem>
+                <asp:ListItem>Comunicacion</asp:ListItem>
                 <asp:ListItem>Noticia</asp:ListItem>
                 <asp:ListItem>Paper Cientifico</asp:ListItem>
             </asp:DropDownList>
