@@ -1,0 +1,39 @@
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Sistema Academico.dll.config
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Sistema Academico.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Sistema Academico.pdb
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Antlr3.Runtime.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.Core.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\EntityFramework.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\System.Web.Optimization.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\System.Web.Providers.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\WebGrease.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\EntityFramework.xml
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.Core.xml
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\es\EntityFramework.resources.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\es\System.Web.Providers.resources.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\obj\Debug\Sistema Academico.dll
+C:\Users\Gustavo Cevallos\Documents\Visual Studio 2013\Projects\Sistema Academico\Sistema Academico\obj\Debug\Sistema Academico.pdb
+C:\Users\Gustavo Cevallos\documents\visual studio 2013\Projects\Sistema Academico\Sistema Academico\obj\Debug\Sistema Academico.csprojResolveAssemblyReference.cache

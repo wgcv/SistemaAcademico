@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html,body {
+    height:100%;
+    	margin: 0;
+	padding: 0;
+			font-family: 'Roboto', sans-serif;
+            background: #2C2A3C;
+}
+header {
+	margin: 0;
+    width: 100%;
+    max-height: 500px;
+    min-height: 250px;
+    font-size: 20px;
+    background: url('/Images/header-bg.png' ) bottom right no-repeat,url('/Images/ing-bg.png') no-repeat, #F39C00;
+    position: relative; 
+    color: #fff;
+    font-size: 1em;
+}
+#login{
+	float:right;
+    position: absolute;
+    bottom:1em;
+    right:1em;
+    clear:right;
+      border: solid 1px #555175;
+    padding: 1em;
+    text-decoration: none;
+}
+#login  input[type="text"], #login  input[type="password"] {
+	display: block;
+	margin: 0 0 2px;
+}
+#login input[type="submit"] {
+	float: right;
+	    margin: 5px;
+}
+#login a {
+	    text-decoration: none;
+}
+header #user-icon{
+	display: inline;
+	float: left;
+	height: 45px;
+	
+}
+
+#logoucsg{
+	    position: absolute;
+	    right: 10%;
+	    top: 8%;
+}
+nav{
+
+    background-color: #ddd;
+    width: 100%;
+    max-height: 75;
+    min-height: 45px;
+}
+nav a{
+	margin: 0.20em 0;
+	padding: 0.40em 0.5em;
+	display: inline-block;
+	vertical-align: middle;
+	color: #555;
+	font-size: 1.1em;
+	text-decoration: none;
+	border-right: solid #eee 1px;
+
+}
+nav a:first-child { 
+		margin: 0.20em 0 0.2em 60px;
+			border-left: solid #eee 1px;
+
+
+}
+
+#banner {
+	width: 100%;
+	max-height: 375px;
+	background: #333;
+}
+#pagina{
+	width: 100%;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+}
+#derecho {
+	display: table-cell;
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	background: #555175;
+	min-height: 100% 
+}
+#derecho h1{
+	color: #fff;
+        padding: 0 1em;
+}
+#izquierdo {
+	display: table-cell;
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+		background: #555175;
+		height: 100% 
+}
+
+#contenedorcontenido {
+	width:  69%;;
+	margin: 0;
+	padding: 0;
+		min-height: 100% ;
+display: table-cell;
+		background: #fff;
+
+}
+#contenido {
+	margin: 5em 1em;
+	}
+	
+footer{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+		background: #2C2A3C;
+		text-align: center;
+}
+footer article{
+display: inline-block;
+    padding: 2em 1.5em;
+	   vertical-align: top;
+}
+footer article h1 {
+	color: #fff;
+	}
+footer article a {
+	display: block;
+	color: #AF6F3F;
+		text-decoration: none;
+
+}
+#contenedorfooter{
+display: inline-block;
+}
+#compring {
+	color: #eee;
+	font-size: 0.7em;
+}
+#RedSocial a{
+	display: inline;
+}
+#RedSocial img{
+	height: 28px;
+	width: 28px;
+	margin: 0.25em;
+}

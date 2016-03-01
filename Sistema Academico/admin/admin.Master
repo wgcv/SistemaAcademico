@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.Master.cs" Inherits="admin.SiteMaster" %>
+
+<html>
+<head runat="server">
+        <title><%: Page.Title %> - Universidad Católica Santiago de Guayaquil</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <meta charset="utf-8" />
+     <asp:PlaceHolder runat="server">     
+          <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>  
+    	<link rel="stylesheet" type="text/css" href="../styl.css">
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+
+</head>
+<body>
+        <form runat="server">
+              <asp:ScriptManager runat="server">
+        <Scripts>
+            <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+            <%--Framework Scripts--%>
+            
+            <asp:ScriptReference Name="MsAjaxBundle" />
+            <asp:ScriptReference Name="jquery" />
+            <asp:ScriptReference Name="jquery.ui.combined" />
+            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+            <asp:ScriptReference Name="WebFormsBundle" />
+            <%--Site Scripts--%>
+
+        </Scripts>
+    </asp:ScriptManager>
+    <header>
+		<div  id="login">
+		<div id="logear" runat="server" style="display: inline-block;">
+		<img id="user-icon" src="../Images/user-icon.png">
+		<div id="ingreso" style="display: inline-block;">
+            <asp:TextBox ID="txtusuario" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtpassword" runat="server" TextMode="Password"></asp:TextBox>
+                       <asp:Label ID="lblerror" runat="server" style="display: block;" Text="Error al ingresar! " Visible="False"></asp:Label>
+
+        <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" OnClick="btnIngresar_Click"  OnClientClick="btnIngresar_Click" />
+        <asp:Button ID="btnREgistrar" runat="server" Text="Registrarse" OnClick="btnRegistrar_Click" OnClientClick="btnRegistrar_Click" />
+
+		</div>
+            		</div>
+
+		<div runat="server" id="ingresado">
+		   
+		Bienvenido <asp:Label ID="lblUsuario" runat="server" Text=""> </asp:Label>
+		<asp:LinkButton ID="lnkSalir" runat="server" Text="Salir" onclick="btnSalir_Click"  />
+
+</div>
+		</div>
+	</header>
+	<nav>
+		<a href="/admin/Default.aspx">Inicio</a>
+		<a href="/admin/noticias.aspx">Noticias</a>
+		<a href="/admin/eventos.aspx">Eventos</a>
+		<a href="#">Encuestas</a>
+		<a href="/foro.aspx">Foros</a>
+		<a href="/admin/concursos.aspx">Concursos</a>
+		<a href="/admin/opiniones.aspx">Opinion</a>
+        <a href="#">Documentos</a>
+
+	</nav>
+	<aside id="banner">
+	</aside>
+	<section id="pagina">
+		<aside id="izquierdo">
+        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+		</aside>
+		<article id="contenedorcontenido">
+			<div id="contenido">
+		  <asp:ContentPlaceHolder runat="server" ID="MainContent" /></div>
+		</article>
+
+	</section>
+<footer>
+	<div id="contenedorfooter">
+<article>
+	<h1>Inicio</h1>
+	<a href="#">Bienvenidos</a>
+	<a href="#">Concursos</a>
+	<a href="#">Eventos</a>
+</article>
+<article>
+	<h1>Ubicación</h1>
+	<a href="/mapa.aspx">Mapa</a>
+	<a href="/contactanos.aspx">Contáctenos</a>
+</article>
+<article>
+	<h1>Acerca</h1>
+	<a href="#">Términos</a>
+	<a href="#">Autores</a>
+</article>
+<article id="RedSocial">
+	<h1>Redes sociales</h1>
+	<a href="https://www.facebook.com/Facultad-de-Ingenier%C3%ADa-UCSG-951090128318750/?skip_nax_wizard=true"><img src="/images/fb-2.png" /></a>
+		<a href="https://www.instagram.com/facultadingenieriaucsg/"><img src="/images/ig-2.png" /></a>
+			<a href="https://twitter.com/facuingucsg"><img src="/images/tw-2.png" /></a>
+</article>
+</div>
+<p id="compring"> <%: DateTime.Now.Year %> - Stefano llanos Christian Zambrano, Fadel Fadel Ibañez y Alexander Morales.</p>
+</footer>
+            </form>
+	</body>
+</html>
+
