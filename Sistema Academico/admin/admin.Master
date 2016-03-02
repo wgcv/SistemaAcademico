@@ -66,10 +66,11 @@
 		<a href="/admin/noticias.aspx">Noticias</a>
 		<a href="/admin/eventos.aspx">Eventos</a>
 		<a href="/admin/encuestas">Encuestas</a>
-		<a href="/admin/foro.aspx">Foros</a>
+		<a href="/admin/foros.aspx">Foros</a>
 		<a href="/admin/concursos.aspx">Concursos</a>
 		<a href="/admin/opiniones.aspx">Opinion</a>
         <a href="/admin/documentos.aspx">Documentos</a>
+        <a href="/admin/contacto.aspx">Contactanos</a>
 
 	</nav>
 	<aside id="banner">

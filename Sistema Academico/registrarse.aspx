@@ -33,7 +33,7 @@
         <tr>
             <td>Carrera</td>
             <td>
-                <asp:DropDownList ID="ddlcarrera" runat="server" Width="222px">
+                <asp:DropDownList ID="ddlcarrera" runat="server" Width="222px" >
                     <asp:ListItem>Ingeniería de Sistemas</asp:ListItem>
                     <asp:ListItem>Ingeniería Civil</asp:ListItem>
                 </asp:DropDownList>
@@ -71,7 +71,7 @@
         <tr>
             <td>Pregunta de recuperación</td>
             <td>
-                <asp:DropDownList ID="ddlpregunta" runat="server" AutoPostBack="True" Width="222px">
+                <asp:DropDownList ID="ddlpregunta" runat="server"  Width="222px">
                     <asp:ListItem Value="1">¿Cual es el nombre de tu colegio?</asp:ListItem>
 <asp:ListItem>¿Cual es el nombre de tu mama?</asp:ListItem>
 <asp:ListItem>¿Que marca es tu carro?</asp:ListItem>

@@ -133,6 +133,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="admin\concursos.aspx" />
+    <Content Include="admin\contacto.aspx" />
     <Content Include="admin\contactosemail.aspx" />
     <Content Include="admin\default.aspx" />
     <Content Include="admin\documentos.aspx" />
@@ -142,6 +143,8 @@
     <Content Include="admin\encuestas\fin.aspx" />
     <Content Include="admin\encuestas\pregunta.aspx" />
     <Content Include="admin\encuestas\respuestas.aspx" />
+    <Content Include="admin\enviado.aspx" />
+    <Content Include="admin\enviar.aspx" />
     <Content Include="admin\eventos.aspx" />
     <Content Include="admin\foros.aspx" />
     <Content Include="admin\gruposemail.aspx" />
@@ -256,6 +259,7 @@
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="recuperar.aspx" />
     <Content Include="registrarse.aspx" />
+    <Content Include="revista.aspx" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.24.js" />
@@ -311,6 +315,13 @@
     </Compile>
     <Compile Include="admin\concursos.aspx.designer.cs">
       <DependentUpon>concursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\contacto.aspx.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\contacto.aspx.designer.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\contactosemail.aspx.cs">
       <DependentUpon>contactosemail.aspx</DependentUpon>
@@ -375,6 +386,20 @@
     </Compile>
     <Compile Include="admin\encuestas\respuestas.aspx.designer.cs">
       <DependentUpon>respuestas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\enviado.aspx.cs">
+      <DependentUpon>enviado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\enviado.aspx.designer.cs">
+      <DependentUpon>enviado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\enviar.aspx.cs">
+      <DependentUpon>enviar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\enviar.aspx.designer.cs">
+      <DependentUpon>enviar.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\eventos.aspx.cs">
       <DependentUpon>eventos.aspx</DependentUpon>
@@ -615,6 +640,13 @@
     <Compile Include="registrarse.aspx.designer.cs">
       <DependentUpon>registrarse.aspx</DependentUpon>
     </Compile>
+    <Compile Include="revista.aspx.cs">
+      <DependentUpon>revista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="revista.aspx.designer.cs">
+      <DependentUpon>revista.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -638,6 +670,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="adjuntos\" />
     <Folder Include="App_Data\" />
     <Folder Include="Documentos\" />
     <Folder Include="noticiasimg\" />

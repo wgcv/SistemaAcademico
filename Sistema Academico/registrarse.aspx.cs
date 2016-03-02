@@ -65,5 +65,10 @@ namespace Sistema_Academico
             }
             return hash.ToString();
         }
+
+        protected void ddlcarrera_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

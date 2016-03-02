@@ -12,7 +12,7 @@ namespace Sistema_Academico.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            GridView1.DataSource = Libreria.consulta("select * from respuestaforos where estado = 'A'");
+            GridView1.DataSource = Libreria.consulta("select * from respuestaforos");
             GridView1.DataBind();
 
         }

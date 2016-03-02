@@ -8,11 +8,11 @@ using System.Web.UI.WebControls;
 
 namespace Sistema_Academico.admin
 {
-    public partial class documentos : System.Web.UI.Page
+    public partial class contacto : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            GridView1.DataSource = Libreria.consulta("select * from DOCUMENTOS where estado = 'A' or estado='P'");
+            GridView1.DataSource = Libreria.consulta("select * from contactanos where estado = 'A'");
             GridView1.DataBind();
 
         }
@@ -28,20 +28,11 @@ namespace Sistema_Academico.admin
             GridViewRow registro = GridView1.Rows[fila];
             txtCodigo.Enabled = false;
             txtCodigo.Text = registro.Cells[2].Text;
-            txtCategoria.Text = registro.Cells[3].Text;
-            txtTitulo.Text = registro.Cells[4].Text;
-            HyperLink1.NavigateUrl = registro.Cells[5].Text;
-            if (registro.Cells[6].Text == "A")
-            {
-                CheckBox1.Checked = true;
+            txtTitulo.Text = registro.Cells[3].Text;
 
-            }
-            else
-            {
-                CheckBox1.Checked = false;
-
-            }
-            
+            txtLuguar.Text = registro.Cells[4].Text;
+            txtFecha.Text = registro.Cells[5].Text;
+           
             if (e.CommandName == "modificar")
             {
 
@@ -63,31 +54,25 @@ namespace Sistema_Academico.admin
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-
+           
             lblMensaje.Text = "";
-            String estado = "P";
 
-
-            if (CheckBox1.Checked)
-            {
-                estado = "A";
-            }
             string sql = "";
             if (Session["modo"] == "i")
             {
-              //  sql = "INSERT INTO eventos (categoria,lugar,telefono,descripcion,img,fecha,estado) VALUES('" + txtTitulo.Text + "','" + txtLuguar.Text + "','" + txtTelefono.Text + "','" + txtDescripcion.Text + "','" + fullPath + "','" + txtFecha + "','A')";
+                sql = "INSERT INTO contactanos (nombre,email,mensaje,estado) VALUES('" + txtTitulo.Text + "','" + txtLuguar.Text + "','" + txtFecha.Text + "','A')";
 
 
             }
             else if (Session["modo"] == "m")
             {
-                sql = "UPDATE DOCUMENTOS SET categoria='" + txtCategoria.Text + "',titulo='" + txtTitulo.Text + "',estado='" + estado + "' where id=" + txtCodigo.Text;
+                sql = "UPDATE contactanos SET nombre='" + txtTitulo.Text + "',email='" + txtLuguar.Text + "', mensaje=' " + txtFecha.Text + "',estado='A' where id=" + txtCodigo.Text;
 
 
             }
             else
             {
-                sql = "UPDATE DOCUMENTOS SET estado='I' where id =" + txtCodigo.Text;
+                sql = "UPDATE contactanos SET estado='I' where id =" + txtCodigo.Text;
 
             }
             Libreria.ejecuta(sql);
@@ -96,6 +81,10 @@ namespace Sistema_Academico.admin
 
         }
 
-     
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Session["modo"] = "i";
+            Panel1.Visible = true;
+        }
     }
 }

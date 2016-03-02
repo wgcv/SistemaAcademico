@@ -28,6 +28,7 @@ namespace Sistema_Academico.admin
 
         protected void Button3_Click(object sender, EventArgs e)
         {
+            Response.Redirect("/admin/enviar.aspx");
 
         }
     }

@@ -13,5 +13,19 @@ namespace Sistema_Academico.admin.encuestas
         {
 
         }
+
+      
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/admin/encuestas/crearEncuesta.aspx");
+
+        }
+
+        protected void Button3_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("/admin/encuestas/respuestas.aspx");
+
+        }
     }
 }

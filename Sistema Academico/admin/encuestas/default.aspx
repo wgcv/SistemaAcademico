@@ -13,21 +13,20 @@
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="Button1" runat="server" Text="Button" />
+                <asp:Button ID="Button1" runat="server" Text="Crear encuesta" Height="77px" OnClick="Button1_Click" Width="150px" />
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="Button2" runat="server" Text="Button" />
-            </td>
+                &nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="Button3" runat="server" Text="Button" />
+                <asp:Button ID="Button3" runat="server" Text="Revisar Respuestas" Height="77px" OnClick="Button3_Click1" Width="150px" />
             </td>
             <td>&nbsp;</td>
         </tr>

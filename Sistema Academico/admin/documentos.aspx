@@ -6,6 +6,9 @@
         .auto-style1 {
             height: 22px;
         }
+        .auto-style2 {
+            height: 26px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
@@ -53,9 +56,16 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td>Titulo</td>
-            <td>
+            <td class="auto-style2">Titulo</td>
+            <td class="auto-style2">
                 <asp:TextBox ID="txtTitulo" runat="server"></asp:TextBox>
+            </td>
+            <td class="auto-style2"></td>
+        </tr>
+        <tr>
+            <td>Documento</td>
+            <td>
+                <asp:HyperLink ID="HyperLink1" runat="server">Descargar</asp:HyperLink>
             </td>
             <td>&nbsp;</td>
         </tr>

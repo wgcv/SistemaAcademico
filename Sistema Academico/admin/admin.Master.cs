@@ -100,14 +100,14 @@ namespace admin
         protected void Page_Load(object sender, EventArgs e)
         {
             //si no es admin no deja ingresar
-           /*
+           
             if (Convert.ToString(Session["usuario"]) != "admin"  )
             {
                 Response.Redirect("/");
 
             
             }
-            */
+            
             //se muestra el bienvenido
             ingresado.Visible = true;
             logear.Visible = false;
